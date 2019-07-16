@@ -1,0 +1,8 @@
+<button type="submit" (click)="onSubmit()">Display Details</button> 
+<p *ngIf="showPassword">Secret Password: Ani</p>
+<p>Click Count:</p>
+<ul>
+    <li *ngFor="let score of scores" [ngStyle]="{'background-color': background}"}">
+        {{ score }}
+    </li>
+</ul>
