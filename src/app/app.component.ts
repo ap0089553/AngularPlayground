@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+  feature = 'receipe';
+  onSelect(feature: string) {
+    this.feature = feature;
+  }
 }
