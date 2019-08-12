@@ -7,7 +7,7 @@ import { CounterService } from '../services/counter.service';
   templateUrl: './inactive-users.component.html',
   styleUrls: ['./inactive-users.component.css']
 })
-export class InactiveUsersComponent implements OnInit{
+export class InactiveUsersComponent implements OnInit {
   users: string[];
 
   constructor(private usersService: UsersService, private counterService: CounterService) {
